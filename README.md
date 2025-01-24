@@ -10,13 +10,21 @@ Contents
 This repository includes solutions for the following problem sets:
 
 Problem Set 1: C Programming Basics
+
 Problem Set 2: Arrays and Loops
+
 Problem Set 3: Algorithms (Sorting and Searching)
+
 Problem Set 4: Memory (Pointers, Dynamic Memory Allocation)
+
 Problem Set 5: Data Structures (Hash Tables, Tries)
+
 Problem Set 6: Python Programming
+
 Problem Set 7: SQL and Databases
+
 Problem Set 8: Web Programming with Flask
+
 Each problem set has its folder with all the code and required files for the tasks.
 
 How to Use
