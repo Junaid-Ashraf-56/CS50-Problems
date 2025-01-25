@@ -1,0 +1,29 @@
+Problem 1:
+SELECT name FROM songs;
+Problem 2:
+SELECT name FROM songs ORDER BY tempo;
+Problem 3:
+SELECT name FROM songs ORDER BY duration_ms DESC  LIMIT 5;
+Problem 4:
+SELECT name FROM songs WHERE danceability > 0.75 AND valence > 0.75 AND energy > 0.75;
+Problem 5:
+SELECT avg(energy) FROM songs;
+Probrlm 6:
+SELECT name
+FROM songs
+WHERE artist_id =
+(
+    SELECT id
+    FROM artists
+    WHERE name = 'Post Malone'
+);
+Problem 7:
+SELECT AVG(energy)
+FROM songs
+JOIN artists ON songs.artist_id = artists.id
+WHERE artists.name = 'Drake';
+Problem 8:
+SELECT name
+    FROM songs
+    WHERE name LIKE '%feat.%';
+
